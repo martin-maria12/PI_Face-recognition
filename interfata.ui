@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1095</width>
+    <height>848</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(170, 170, 255)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(170, 170, 255);</string>
+      </property>
+      <property name="currentIndex">
+       <number>3</number>
+      </property>
+      <property name="documentMode">
+       <bool>true</bool>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <property name="movable">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="Photos">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>../icons/icon-image-512.jpeg</normaloff>../icons/icon-image-512.jpeg</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Photo</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QWidget" name="PhotosContent" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QLabel" name="WhereIsPhoto">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>600</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="CBsPhoto" native="true">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <widget class="QPushButton" name="UploadPhotoCB">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+	background-color: rgb(199, 197, 255);
+	border: 3px solid rgb(138, 138, 207);
+	border-radius: 20px;
+	color: rgb(0, 0, 127);
+	
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgb(170, 85, 255);
+	border: 3px solid rgb(159, 79, 238);
+	border-radius: 20px;
+	color: rgb(85, 0, 127);
+
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Upload</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="RecognitionPhotoCB">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+	background-color: rgb(199, 197, 255);
+	border: 3px solid rgb(138, 138, 207);
+	border-radius: 20px;
+	color: rgb(0, 0, 127);
+	
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgb(170, 85, 255);
+	border: 3px solid rgb(159, 79, 238);
+	border-radius: 20px;
+	color: rgb(85, 0, 127);
+
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Recognition</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Videos">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>../icons/video-icon.jpeg</normaloff>../icons/video-icon.jpeg</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Video</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QWidget" name="VideosContent" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <widget class="QLabel" name="WhereIsVideo">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>600</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="CBsVideo" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QPushButton" name="UploadVideoCB">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+	background-color: rgb(199, 197, 255);
+	border: 3px solid rgb(138, 138, 207);
+	border-radius: 20px;
+	color: rgb(0, 0, 127);
+	
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgb(170, 85, 255);
+	border: 3px solid rgb(159, 79, 238);
+	border-radius: 20px;
+	color: rgb(85, 0, 127);
+
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Upload</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="RecognitionVideoCB">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+	background-color: rgb(199, 197, 255);
+	border: 3px solid rgb(138, 138, 207);
+	border-radius: 20px;
+	color: rgb(0, 0, 127);
+	
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgb(170, 85, 255);
+	border: 3px solid rgb(159, 79, 238);
+	border-radius: 20px;
+	color: rgb(85, 0, 127);
+
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Recognition</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="StopVideoCB">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+	background-color: rgb(199, 197, 255);
+	border: 3px solid rgb(138, 138, 207);
+	border-radius: 20px;
+	color: rgb(0, 0, 127);
+	
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgb(170, 85, 255);
+	border: 3px solid rgb(159, 79, 238);
+	border-radius: 20px;
+	color: rgb(85, 0, 127);
+
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Stop</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="LiveCamera">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>../icons/83574.png</normaloff>../icons/83574.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Live Camera</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QWidget" name="LiveCameraContent" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <item>
+            <widget class="QLabel" name="WhereIsCamera">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>600</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="CBsCamera" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <item>
+               <widget class="QPushButton" name="StartCameraCB">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+	background-color: rgb(199, 197, 255);
+	border: 3px solid rgb(138, 138, 207);
+	border-radius: 20px;
+	color: rgb(0, 0, 127);
+	
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgb(170, 85, 255);
+	border: 3px solid rgb(159, 79, 238);
+	border-radius: 20px;
+	color: rgb(85, 0, 127);
+
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Start</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="StopCameraCB">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+	background-color: rgb(199, 197, 255);
+	border: 3px solid rgb(138, 138, 207);
+	border-radius: 20px;
+	color: rgb(0, 0, 127);
+	
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgb(170, 85, 255);
+	border: 3px solid rgb(159, 79, 238);
+	border-radius: 20px;
+	color: rgb(85, 0, 127);
+
+	font: 18pt &quot;Franklin Gothic Demi&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Stop</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Help">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>../icons/3524335.png</normaloff>../icons/3524335.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Help</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QTextBrowser" name="TitluHelp">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Bodoni MT Poster Compressed'; font-size:48pt; font-weight:600; text-decoration: underline;&quot;&gt;Help&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextBrowser" name="ContentHelp">
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="html">
+           <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Aplicația realizează recunoașterea facială &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;dintr-o îregistrare video în timp real sau deja existentă și din imagini.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;Pentru a realiza recunoașterea facială dintr-o imagine se va apăsa pe butonul  &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt; font-style:italic;&quot;&gt;Upload  &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&amp;quot; din tab-ul &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt; font-style:italic;&quot;&gt;Photo &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&amp;quot;, se va selecta imaginea dorită și aceasta va fi încărcată în interfața aplicației, iar apoi, prin apăsarea butonului &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt; font-style:italic;&quot;&gt;Recognition &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&amp;quot; se va realiza recunoașterea, apărând pe fețele oamenilor prezenți în imagine un chenar și numele lor, dacă există în sistem, sau &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt; font-style:italic;&quot;&gt;Uknown &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&amp;quot;, dacă nu îî recunoaște.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;Pentru a realiza recunoașterea facială dintr-o înregistrare deja existentă, în tab-ul &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt; font-style:italic;&quot;&gt;Video &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&amp;quot; se va apăsa pe butonul &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt; font-style:italic;&quot;&gt;Upload &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&amp;quot; se va selecta înregistrarea dorită, dar aceasta nu va fi încărcată în interfața aplicației. Prin apăsarea butonului &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt; font-style:italic;&quot;&gt;Recognition &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&amp;quot; se va încărca înregistrarea în interfată și se va realiza, totodată, recunoașterea fețelor. Pentru a încărca o nouă înregistrare va trebui oprită cea precedentă, apăsând pe butonul &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt; font-style:italic;&quot;&gt;Stop &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&amp;quot;, care o va opri.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;Pentru a realiza recunoașterea facială dintr-o înregistrare în timp real, în tab-ul &amp;quot; &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt; font-style:italic;&quot;&gt;Live Camera &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&amp;quot; se va apăsa pe butonul &amp;quot; &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt; font-style:italic;&quot;&gt;Start &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&amp;quot;, se va deschide camera, se va realiza recunoașterea fețelor și va fi creat un fișier excel în care va fi contorizat timpul în care o persoană este prezentă. Apăsând butonul &amp;quot; &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt; font-style:italic;&quot;&gt;Stop &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:16pt;&quot;&gt;&amp;quot; se va opri înregistrarea și nu se va mai contoriza timpul.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <action name="actionPhoto">
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/icon-image-512.jpeg</normaloff>../icons/icon-image-512.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>Photo Detection</string>
+   </property>
+  </action>
+  <action name="actionVideo">
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/video-icon.jpeg</normaloff>../icons/video-icon.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>Video Detection</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/3524335.png</normaloff>../icons/3524335.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionLive_Detection">
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/83574.png</normaloff>../icons/83574.png</iconset>
+   </property>
+   <property name="text">
+    <string>Live Detection</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
